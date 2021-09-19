@@ -2,17 +2,17 @@ version: "3.3"
 
 services:
   elasticsearch:
-    image: comworkio/elasticsearch
+    image: sralloza/elasticsearch
     build:
       context: elasticsearch
       dockerfile: Dockerfile
   elastalert:
-    image: comworkio/elastalert
+    image: sralloza/elastalert
     build:
       context: elastalert
       dockerfile: Dockerfile
   kibana:
-    image: comworkio/kibana
+    image: sralloza/kibana
     build:
       context: kibana
       dockerfile: Dockerfile
