@@ -1,5 +1,6 @@
 #!/bin/bash
 
+set -e
 BASE_DIR="$(dirname $0)"
 REPO_PATH="${BASE_DIR}/.."
 ARCH="${1}"
